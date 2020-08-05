@@ -18,8 +18,8 @@
     php_max_execution_time: "300"
     php_date_timezone: "UTC"
 
-    joomla_version: 3-9-19
-    joomla_dot_version: 3.9.19
+    joomla_version: 3-9-20
+    joomla_dot_version: 3.9.20
 
   tasks:
     
