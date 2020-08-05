@@ -18,7 +18,7 @@
 
     -   name: Extract Joomla into /tmp
         unarchive:
-            src: /var/www/joomla/Joomla_{{ joomla_version }}-Stable-Full_Package.zip
+            src: /var/www/joomla/Joomla_{{ joomla_dot_version }}-Stable-Full_Package.zip
             dest: /var/www/joomla
         when:
             - os_check.stdout | regex_search("Ubuntu") or os_check.stdout | regex_search("CentOS")

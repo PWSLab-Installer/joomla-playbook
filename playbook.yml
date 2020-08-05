@@ -19,6 +19,7 @@
     php_date_timezone: "UTC"
 
     joomla_version: 3-9-19
+    joomla_dot_version: 3.9.19
 
   tasks:
     
