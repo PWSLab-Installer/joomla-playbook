@@ -3,13 +3,13 @@
   vars:
     php_version: '7.4'
     php_default_version_debian: '7.4'
-    mysql_databases: 
-        - name: joomla
-    mysql_users: 
-        - name: joomla
-          host: 127.0.0.1
-          password: joomla
-          priv: joomla.*:ALL
+    # mysql_databases: 
+    #     - name: joomla
+    # mysql_users: 
+    #     - name: joomla
+    #       host: 127.0.0.1
+    #       password: joomla
+    #       priv: joomla.*:ALL
 
     php_memory_limit: "512M"
     php_upload_max_filesize: "256M"
